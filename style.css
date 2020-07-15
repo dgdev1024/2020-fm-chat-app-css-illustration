@@ -364,6 +364,12 @@
 }
 
 @media (min-width: 800px) {
+  .main::before {
+    left: -50%;
+    width: 75%;
+    height: 80%;
+  }
+
   .container {
     grid-template-columns: 1fr 1fr;
     width: 90%;
