@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Chat App CSS Illustration</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="phone-pane">
+          <div class="phone">
+            <!-- Header -->
+            <div class="phone__header">
+              <div class="phone__header-chevron"></div>
+              <img
+                src="./img/avatar.jpg"
+                alt="Samuel Green"
+                class="phone__header-avatar"
+              />
+              <div class="phone__header-profile">
+                <p class="phone__header-name">Samuel Green</p>
+                <p class="phone__header-status">Available to Walk</p>
+              </div>
+              <div class="phone__header-dots"></div>
+            </div>
+
+            <!-- Conversation -->
+            <div class="phone__convo">
+              <p
+                class="phone__convo-reply phone__convo-text phone__convo-text--reply"
+              >
+                That sounds great. I'd be happy to discuss more.
+              </p>
+              <p
+                class="phone__convo-reply phone__convo-text phone__convo-text--reply"
+              >
+                Could you send over some pictures of your dog, please?
+              </p>
+              <div class="phone__convo-sent phone__convo-image-strip">
+                <img
+                  src="./img/dog-image-1.jpg"
+                  alt="Doggo"
+                  class="phone__convo-image"
+                />
+                <img
+                  src="./img/dog-image-2.jpg"
+                  alt="Treatos"
+                  class="phone__convo-image"
+                />
+                <img
+                  src="./img/dog-image-3.jpg"
+                  alt="Snaccos"
+                  class="phone__convo-image"
+                />
+              </div>
+              <p
+                class="phone__convo-sent phone__convo-text phone__convo-text--sent"
+              >
+                Here are a few pictures. She's a happy girl!
+              </p>
+              <p
+                class="phone__convo-sent phone__convo-text phone__convo-text--sent"
+              >
+                Can you make it?
+              </p>
+              <p
+                class="phone__convo-reply phone__convo-text phone__convo-text--reply"
+              >
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+              <div class="phone__convo-reply phone__convo-offer">
+                <div class="phone__convo-offer-radio"></div>
+                <p class="phone__convo-offer-text">30 minute walk</p>
+                <p class="phone__convo-offer-price">$29</p>
+              </div>
+              <div class="phone__convo-reply phone__convo-offer">
+                <div class="phone__convo-offer-radio"></div>
+                <p class="phone__convo-offer-text">1 hour walk</p>
+                <p class="phone__convo-offer-price">$49</p>
+              </div>
+            </div>
+
+            <!-- Input -->
+            <div class="phone__input">
+              <p class="phone__input-placeholder">Type a message...</p>
+              <div class="phone__input-submit-button">
+                <div class="phone__input-submit-button-chevron"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="caption-pane">
+          <h1 class="heading caption-pane__heading">
+            Simple booking
+          </h1>
+          <p class="text caption-pane__text">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discusus arrangements and make bookings. Once the
+            walk has bee completed, you can rate the walker and book again all
+            though the chat.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
